@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.4.0' // Ensure this is the latest stable version
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22" // Ensure this matches the Kotlin version you intend to use
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.4.0' apply false // Use the same AGP version as in buildscript
+    id 'com.android.library' version '8.4.0' apply false   // If you have library modules, use the same AGP version
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false // Use the same Kotlin version as in buildscript
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}

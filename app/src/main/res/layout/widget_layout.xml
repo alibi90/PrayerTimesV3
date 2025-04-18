@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <TextView android:id="@+id/label_fajr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Fajr" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/label_sunrise" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Sunrise" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/label_dhuhr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Dhuhr" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/label_asr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Asr" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/label_maghrib" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Maghrib" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/label_isha" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Isha" android:textColor="@android:color/white" android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <TextView android:id="@+id/time_fajr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="04:07" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/time_sunrise" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="05:31" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/time_dhuhr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="12:07" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/time_asr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="16:48" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/time_maghrib" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="18:44" android:textColor="@android:color/white" android:textAlignment="center"/>
+        <TextView android:id="@+id/time_isha" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="20:08" android:textColor="@android:color/white" android:textAlignment="center"/>
+    </LinearLayout>
+    </LinearLayout>
